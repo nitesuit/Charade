@@ -1,0 +1,16 @@
+﻿{
+    "group":[
+                 {
+                 "id": 0,
+                 "name": "Filmai"
+                 },
+                 {
+                 "id": 1,
+                 "name": "Muzika"
+                 },
+                 {
+                 "id": 2,
+                 "name": "Žmonės"
+                 }
+                 ]
+}

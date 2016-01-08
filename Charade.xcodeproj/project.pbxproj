@@ -16,6 +16,14 @@
 		AA1E3E1C1C3FBC1400987650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1E3E1A1C3FBC1400987650 /* LaunchScreen.storyboard */; };
 		AA1E3E271C3FBC1400987650 /* CharadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E261C3FBC1400987650 /* CharadeTests.m */; };
 		AA1E3E321C3FBC1400987650 /* CharadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E311C3FBC1400987650 /* CharadeUITests.m */; };
+		AA1E3E481C3FCB6B00987650 /* group.json in Resources */ = {isa = PBXBuildFile; fileRef = AA1E3E471C3FCB6B00987650 /* group.json */; };
+		AA1E3E4A1C3FCC2E00987650 /* topic.json in Resources */ = {isa = PBXBuildFile; fileRef = AA1E3E491C3FCC2E00987650 /* topic.json */; };
+		AA1E3E501C3FD06800987650 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E4F1C3FD06800987650 /* Topic.m */; };
+		AA1E3E531C3FD2B100987650 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E521C3FD2B100987650 /* Group.m */; };
+		AA1E3E571C3FD7B000987650 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E561C3FD7B000987650 /* JSONHelper.m */; };
+		AA1E3E631C3FFE1700987650 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E621C3FFE1700987650 /* SelectionViewController.m */; };
+		AA1E3E661C40088C00987650 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E3E651C40088C00987650 /* GameViewController.m */; };
+		AA1E3E681C40153300987650 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1E3E671C40153300987650 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		AA1E3E2D1C3FBC1400987650 /* CharadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1E3E311C3FBC1400987650 /* CharadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharadeUITests.m; sourceTree = "<group>"; };
 		AA1E3E331C3FBC1400987650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1E3E471C3FCB6B00987650 /* group.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = group.json; sourceTree = "<group>"; };
+		AA1E3E491C3FCC2E00987650 /* topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic.json; sourceTree = "<group>"; };
+		AA1E3E4E1C3FD06800987650 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		AA1E3E4F1C3FD06800987650 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		AA1E3E511C3FD2B100987650 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		AA1E3E521C3FD2B100987650 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		AA1E3E541C3FD5B700987650 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		AA1E3E551C3FD7B000987650 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		AA1E3E561C3FD7B000987650 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHelper.m; sourceTree = "<group>"; };
+		AA1E3E611C3FFE1700987650 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		AA1E3E621C3FFE1700987650 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		AA1E3E641C40088C00987650 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		AA1E3E651C40088C00987650 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		AA1E3E671C40153300987650 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1E3E681C40153300987650 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,7 @@
 		AA1E3DFD1C3FBC1400987650 = {
 			isa = PBXGroup;
 			children = (
+				AA1E3E671C40153300987650 /* CoreMotion.framework */,
 				AA1E3E081C3FBC1400987650 /* Charade */,
 				AA1E3E251C3FBC1400987650 /* CharadeTests */,
 				AA1E3E301C3FBC1400987650 /* CharadeUITests */,
@@ -103,10 +127,12 @@
 		AA1E3E081C3FBC1400987650 /* Charade */ = {
 			isa = PBXGroup;
 			children = (
+				AA1E3E451C3FCAFB00987650 /* Resources */,
+				AA1E3E411C3FBE0200987650 /* Controller */,
+				AA1E3E401C3FBDF700987650 /* View */,
+				AA1E3E3F1C3FBDF000987650 /* Model */,
 				AA1E3E0C1C3FBC1400987650 /* AppDelegate.h */,
 				AA1E3E0D1C3FBC1400987650 /* AppDelegate.m */,
-				AA1E3E0F1C3FBC1400987650 /* ViewController.h */,
-				AA1E3E101C3FBC1400987650 /* ViewController.m */,
 				AA1E3E121C3FBC1400987650 /* Main.storyboard */,
 				AA1E3E181C3FBC1400987650 /* Assets.xcassets */,
 				AA1E3E1A1C3FBC1400987650 /* LaunchScreen.storyboard */,
@@ -141,6 +167,57 @@
 				AA1E3E331C3FBC1400987650 /* Info.plist */,
 			);
 			path = CharadeUITests;
+			sourceTree = "<group>";
+		};
+		AA1E3E3F1C3FBDF000987650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E3E4E1C3FD06800987650 /* Topic.h */,
+				AA1E3E4F1C3FD06800987650 /* Topic.m */,
+				AA1E3E511C3FD2B100987650 /* Group.h */,
+				AA1E3E521C3FD2B100987650 /* Group.m */,
+				AA1E3E541C3FD5B700987650 /* DBHelper.h */,
+				AA1E3E551C3FD7B000987650 /* JSONHelper.h */,
+				AA1E3E561C3FD7B000987650 /* JSONHelper.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA1E3E401C3FBDF700987650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AA1E3E411C3FBE0200987650 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E3E0F1C3FBC1400987650 /* ViewController.h */,
+				AA1E3E101C3FBC1400987650 /* ViewController.m */,
+				AA1E3E611C3FFE1700987650 /* SelectionViewController.h */,
+				AA1E3E621C3FFE1700987650 /* SelectionViewController.m */,
+				AA1E3E641C40088C00987650 /* GameViewController.h */,
+				AA1E3E651C40088C00987650 /* GameViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA1E3E451C3FCAFB00987650 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E3E461C3FCB1000987650 /* JSON */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA1E3E461C3FCB1000987650 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E3E471C3FCB6B00987650 /* group.json */,
+				AA1E3E491C3FCC2E00987650 /* topic.json */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +287,7 @@
 				TargetAttributes = {
 					AA1E3E051C3FBC1400987650 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 339KZW7PC2;
 					};
 					AA1E3E211C3FBC1400987650 = {
 						CreatedOnToolsVersion = 7.2;
@@ -246,9 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1E3E4A1C3FCC2E00987650 /* topic.json in Resources */,
 				AA1E3E1C1C3FBC1400987650 /* LaunchScreen.storyboard in Resources */,
 				AA1E3E191C3FBC1400987650 /* Assets.xcassets in Resources */,
 				AA1E3E141C3FBC1400987650 /* Main.storyboard in Resources */,
+				AA1E3E481C3FCB6B00987650 /* group.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +354,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1E3E171C3FBC1400987650 /* Charade.xcdatamodeld in Sources */,
+				AA1E3E631C3FFE1700987650 /* SelectionViewController.m in Sources */,
 				AA1E3E111C3FBC1400987650 /* ViewController.m in Sources */,
+				AA1E3E501C3FD06800987650 /* Topic.m in Sources */,
+				AA1E3E661C40088C00987650 /* GameViewController.m in Sources */,
+				AA1E3E531C3FD2B100987650 /* Group.m in Sources */,
 				AA1E3E0E1C3FBC1400987650 /* AppDelegate.m in Sources */,
+				AA1E3E571C3FD7B000987650 /* JSONHelper.m in Sources */,
 				AA1E3E0B1C3FBC1400987650 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +502,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Charade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ItWorks.Charade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +515,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Charade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ItWorks.Charade;
 				PRODUCT_NAME = "$(TARGET_NAME)";

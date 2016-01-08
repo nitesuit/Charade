@@ -1,0 +1,26 @@
+{
+    "topic":[
+                 {
+                 "id": 0,
+                 "catId": 0,
+                 "name": "Siaubo filmai",
+                 "desc": "Apibūdink siaubo filmą neminint veikėjų vardų",
+                 "questions": ["Išvarymas","Egzorcistas","Švytėjimas","Pjūklas","Psichopatas","Skambutis","Poltergeistas"]
+                 },
+                 {
+                 "id": 1,
+                 "catId": 2,
+                 "name": "Garsūs lietuviai",
+                 "desc": "Parodijuok garsenybę, neminint jos vardo",
+                 "questions": ["Marijonas Mikutavičius","Andrius Mamontovas","Egidijus Dragūnas","Edmundas Jakilaitis","Algis Ramanauskas", "Jonas Nainys",
+                                "Viktoras Uspaschikas","Jonas Valančiūnas","Rūta Meilutytė","Dalia Grybauskaitė","Loreta Graužiniėnė","Artūras Zuokas","Jazzu"]
+                 },
+                 {
+                 "id": 2,
+                 "catId": 1,
+                 "name": "Lietuviškos dainos",
+                 "desc": "Dainuok dainą, kad ją atpažintų",
+                 "questions": ["Trys milijonai","Pumpurėliai","Angelai","Kiemas","Ką tu su manim darai?","Boružėlė septintaškė","Po dangum","Aš žiūriu į tave,pasauli"]
+                 }
+                 ]
+}
